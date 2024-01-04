@@ -1,0 +1,38 @@
+<html>
+    <!DOCTYPE html>  
+    <html lang="en">  
+    <head>  
+        <meta charset="UTF-8">  
+        <title>JWT Token Decoder</title>  
+        <script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>  
+    </head>  
+    <body>  
+    <h1>JWT Token Decoder</h1>  
+    <pre id="decodedToken"></pre>  
+    
+    <script>  
+        function getQueryParam(param) {  
+            const urlParams = new URLSearchParams(window.location.search);  
+            return urlParams.get(param);  
+        }  
+    
+        function decodeToken(token) {  
+            try {  
+                const decoded = jwt_decode(token);  
+                return JSON.stringify(decoded, null, 2);  
+            } catch (error) {  
+                return 'Invalid token or error in decoding.';  
+            }  
+        }  
+    
+        document.addEventListener('DOMContentLoaded', () => {  
+            const token = getQueryParam('token');  
+            if (token) {  
+                document.getElementById('decodedToken').textContent = decodeToken(token);  
+            } else {  
+                document.getElementById('decodedToken').textContent = 'No token provided in the URL.';  
+            }  
+        });  
+    </script>  
+    </body>  
+</html>

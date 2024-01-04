@@ -11,7 +11,7 @@
 		E6139A762B469E0F008F0B00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6139A752B469E0F008F0B00 /* ContentView.swift */; };
 		E6139A782B469E10008F0B00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6139A772B469E10008F0B00 /* Assets.xcassets */; };
 		E6139A7B2B469E10008F0B00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6139A7A2B469E10008F0B00 /* Preview Assets.xcassets */; };
-		E6BB76722B46FFB600E1F3E2 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = E6BB76712B46FFB600E1F3E2 /* index.html */; settings = {ASSET_TAGS = (tag, ); }; };
+		E6BB76742B47031D00E1F3E2 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = E6BB76732B47031C00E1F3E2 /* index.html */; };
 		E6FF88C22B46A85B004460A2 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF88C12B46A85B004460A2 /* ContentViewModel.swift */; };
 		E6FF88C62B46ACAD004460A2 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF88C52B46ACAD004460A2 /* WebView.swift */; };
 		E6FF88C92B46AD63004460A2 /* IdentifiableURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF88C82B46AD63004460A2 /* IdentifiableURL.swift */; };
@@ -22,10 +22,10 @@
 /* Begin PBXFileReference section */
 		E6139A702B469E0F008F0B00 /* ODRTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ODRTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6139A732B469E0F008F0B00 /* ODRTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODRTestApp.swift; sourceTree = "<group>"; };
-		E6139A752B469E0F008F0B00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E6139A752B469E0F008F0B00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../../../../../../../Users/ilasmirzoev/ODRTest/ODRTest/ContentView.swift; sourceTree = SDKROOT; };
 		E6139A772B469E10008F0B00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6139A7A2B469E10008F0B00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E6BB76712B46FFB600E1F3E2 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../../index.html; sourceTree = "<group>"; };
+		E6BB76732B47031C00E1F3E2 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		E6FF88C12B46A85B004460A2 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		E6FF88C52B46ACAD004460A2 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		E6FF88C82B46AD63004460A2 /* IdentifiableURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableURL.swift; sourceTree = "<group>"; };
@@ -63,7 +63,6 @@
 		E6139A722B469E0F008F0B00 /* ODRTest */ = {
 			isa = PBXGroup;
 			children = (
-				E6BB76712B46FFB600E1F3E2 /* index.html */,
 				E6FF88CD2B46AF52004460A2 /* Managers */,
 				E6FF88C72B46AD5C004460A2 /* Helpers */,
 				E6139A732B469E0F008F0B00 /* ODRTestApp.swift */,
@@ -87,6 +86,7 @@
 		E6FF88C72B46AD5C004460A2 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				E6BB76732B47031C00E1F3E2 /* index.html */,
 				E6FF88C82B46AD63004460A2 /* IdentifiableURL.swift */,
 			);
 			path = Helpers;
@@ -167,7 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6BB76722B46FFB600E1F3E2 /* index.html in Resources */,
+				E6BB76742B47031D00E1F3E2 /* index.html in Resources */,
 				E6139A7B2B469E10008F0B00 /* Preview Assets.xcassets in Resources */,
 				E6139A782B469E10008F0B00 /* Assets.xcassets in Resources */,
 			);
